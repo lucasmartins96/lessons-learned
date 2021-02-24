@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: rgb(253, 251, 251);
     margin-top: 180px;
     margin-left: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -13,6 +18,14 @@ header {
     text-align: center
 }
 
+h1 {
+    font-size: 3.5rem;
+}
+
+nav a {
+    font-size: 1.2rem;
+}
+
 #container {
     width: 75%;
     margin: 0 auto;
@@ -20,25 +33,111 @@ header {
     padding: 20px 80px;
 }
 
-#minha_foto {
+#licoes {
+    background-color: #65cdb0;
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px;
     border-radius: 5px;
-    width: 150px;
 }
 
-section {
+#licoes h2 {
+    text-align: center;
+}
+
+#licoes h2, article h2, aside h2, #trajetoria h2{
+    font-size: 2rem;
+}
+
+#section_licoes_aprendidas, #section_licoes_a_aprender {
     padding: 20px;
-    background-color: #65cdb0;
-    margin-bottom: 30px;
+    /* background-color: #65cdb0; */
+    /* margin-bottom: 30px; */
+    width: 45%;
+    display: inline-block;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#section_licoes_aprendidas h2, #section_licoes_a_aprender h2 {
+    font-size: 1.5rem;
+}
+
+#section_licoes_aprendidas {
+    margin-left: 8px;
+}
+
+#section_licoes_a_aprender {
+    vertical-align: top;
+}
+
+section li, article p, aside p, td, footer p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
 }
 
 article {
     background-color: darkcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
 }
 
-#container aside:nth-of-type(1) {
+aside {
     background-color: darkgreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
 }
 
-#container aside:nth-of-type(2) {
-    background-color: lightseagreen;
+#trajetoria {
+    background-color: chartreuse;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+
+caption {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #339e7f;
+}
+
+th {
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+#autor {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+}
+
+#minha_foto {
+    border-radius: 50%;
+    width: 100px;
+}
+
+footer {
+    background-color: #339e7f;
+    width: 100%;
+    height: 100px;
 }
