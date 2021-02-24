@@ -1,8 +1,44 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin-top: 180px;
+    margin-left: 0;
 }
 
 header {
     top: 0px;
     position: fixed;
+    background-color: #339e7f;
+    width: 100%;
+    height: 170px;
+    text-align: center
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ecf9f5;
+    padding: 20px 80px;
+}
+
+#minha_foto {
+    border-radius: 5px;
+    width: 150px;
+}
+
+section {
+    padding: 20px;
+    background-color: #65cdb0;
+    margin-bottom: 30px;
+}
+
+article {
+    background-color: darkcyan;
+}
+
+#container aside:nth-of-type(1) {
+    background-color: darkgreen;
+}
+
+#container aside:nth-of-type(2) {
+    background-color: lightseagreen;
 }
