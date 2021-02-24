@@ -16,37 +16,38 @@
         </nav>
     </header>
     <div id="container">
-        <img id="minha_foto" src="images/minha_foto.jpg" alt="Minha imagem sorrindo">
-        <a href="https://lucasmartins96.github.io/" target="_blank">Meu portfolio</a>
-        <section>
-            <h2>Lições aprendidas</h2>
-            <ol id="licoes_aprendidas">
-                <li>O que é Unix, Shell e Kernel</li>
-                <li>Navegar entre os diretórios no terminal com o <code>cd</code></li>
-                <li>Criação e manipulação de arquivos e diretórios no terminal com o <code>touch</code>, <code>cat</code>, <code>mkdir</code>, <code>mv</code>, etc.</li>
-                <li>O que é Git&GitHub e os seus comandos</li>
-                <li>Como fazer CodeReviews</li>
-                <li>Modelo Cliente & Servidor</li>
-                <li>Utilizar HTML para estruturar textos e títulos e criar links, listas, etc.</li>
-                <li>Criar estilo para tags HTML utilizando o CSS</li>
-                <li>Utilizar seletores de CSS</li>
-                <li>HTML Semântico</li>
-            </ol>
-        </section>
-        <section>
-            <h2>Lições a aprender</h2>
-            <ul id="licoes_a_aprender">
-                <li>Testes Unitários</li>
-                <li>JS Assíncrono</li>
-                <li>Promises</li>
-                <li>Testes Assíncronos</li>
-                <li>React</li>
-                <li>MongoDB</li>
-                <li>Arquitetura Rest e Restful</li>
-                <li>Deployment</li>
-                <li>Sockets</li>
-                <li>Raspagem de Dados</li>
-            </ul>
+        <section id="licoes">
+            <h2>Lições</h2>
+            <section id="section_licoes_aprendidas">
+                <h2>Lições aprendidas</h2>
+                <ol id="licoes_aprendidas">
+                    <li>O que é Unix, Shell e Kernel</li>
+                    <li>Navegar entre os diretórios no terminal com o <code>cd</code></li>
+                    <li>Criação e manipulação de arquivos e diretórios no terminal com o <code>touch</code>, <code>cat</code>, <code>mkdir</code>, <code>mv</code>, etc.</li>
+                    <li>O que é Git&GitHub e os seus comandos</li>
+                    <li>Como fazer CodeReviews</li>
+                    <li>Modelo Cliente & Servidor</li>
+                    <li>Utilizar HTML para estruturar textos e títulos e criar links, listas, etc.</li>
+                    <li>Criar estilo para tags HTML utilizando o CSS</li>
+                    <li>Utilizar seletores de CSS</li>
+                    <li>HTML Semântico</li>
+                </ol>
+            </section>
+            <section id="section_licoes_a_aprender">
+                <h2>Lições a aprender</h2>
+                <ul id="licoes_a_aprender">
+                    <li>Testes Unitários</li>
+                    <li>JS Assíncrono</li>
+                    <li>Promises</li>
+                    <li>Testes Assíncronos</li>
+                    <li>React</li>
+                    <li>MongoDB</li>
+                    <li>Arquitetura Rest e Restful</li>
+                    <li>Deployment</li>
+                    <li>Sockets</li>
+                    <li>Raspagem de Dados</li>
+                </ul>
+            </section>
         </section>
         <article>
             <h2>Sobre meu aprendizado</h2>
@@ -56,9 +57,10 @@
             <h2>Uma passagem sobre meu aprendizado</h2>
             <p>Tivemos uma dinâmica que deveríamos montar um diagrama em grupo sobre o como a internet funciona e confesso que tive que reler o conteúdo diversas vezes pra poder auxiliar o grupo e encaixar as informações corretamente.</p>
         </aside>
-        <div>
+        <section id="trajetoria">
+            <h2>Trajetória Turma 10 - Tribo B</h2>
             <table>
-                <caption>Fundamentos do Desenvolvimento Web</caption>
+                <caption><strong>Módulo 01 - Fundamentos do Desenvolvimento Web</strong></caption>
                 <thead>
                     <tr>
                         <th>Nº do bloco</th>
@@ -119,10 +121,20 @@
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <div id="autor">
+            <div>
+                <img id="minha_foto" src="images/minha_foto.jpg" alt="Minha imagem sorrindo">
+            </div>
+            <div id="nome">
+                <h3>Lucas Martins da Silva</h3>
+                <p>Estudante da Trybe</p>
+            </div>
+            <a href="https://lucasmartins96.github.io/" target="_blank">Meu portfolio</a>
         </div>
     </div>
     <footer id="rodape">
-        <p>Todos os direitos reservados, Lucas Martins da Silva.</p>
+        <p>Todos os direitos reservados, Lucas Martins da Silva</p>
     </footer>
 </body>
 </html>
