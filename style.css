@@ -1,144 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: rgb(253, 251, 251);
-    margin-top: 180px;
-    margin-left: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+  background-color: rgb(253, 251, 251);
+  margin-top: 180px;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
-    top: 0px;
-    position: fixed;
-    background-color: #339e7f;
-    width: 100%;
-    height: 170px;
-    text-align: center
+  top: 0;
+  position: fixed;
+  background-color: #339e7f;
+  width: 100%;
+  height: 170px;
+  text-align: center;
 }
 
 h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 nav a {
-    font-size: 1.2rem;
-    color: rgb(253, 251, 251);
+  font-size: 1.2rem;
+  color: rgb(253, 251, 251);
 }
 
 #container {
-    width: 75%;
-    margin: 0 auto;
-    background-color: #ecf9f5;
-    padding: 20px 80px;
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ecf9f5;
+  padding: 20px 80px;
 }
 
 #licoes {
-    background-color: #65cdb0;
-    border: 1px solid black;
-    width: 100%;
-    padding: 20px;
-    border-radius: 5px;
+  background-color: #65cdb0;
+  border: 1px solid black;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 #licoes h2 {
-    text-align: center;
+  text-align: center;
 }
 
-#licoes h2, article h2, aside h2, #trajetoria h2{
-    font-size: 2rem;
+#licoes h2 , article h2 , aside h2 , #trajetoria h2 {
+  font-size: 2rem;
 }
 
-#section_licoes_aprendidas, #section_licoes_a_aprender {
-    padding: 20px;
-    /* background-color: #65cdb0; */
-    /* margin-bottom: 30px; */
-    width: 45%;
-    display: inline-block;
-    height: 50%;
-    border: 1px solid black;
+#section_licoes_aprendidas , #section_licoes_a_aprender {
+  padding: 20px;
+  width: 45%;
+  display: inline-block;
+  height: 50%;
+  border: 1px solid black;
 }
 
-#section_licoes_aprendidas h2, #section_licoes_a_aprender h2 {
-    font-size: 1.5rem;
+#section_licoes_aprendidas h2 , #section_licoes_a_aprender h2 {
+  font-size: 1.5rem;
 }
 
 #section_licoes_aprendidas {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 #section_licoes_a_aprender {
-    vertical-align: top;
+  vertical-align: top;
 }
 
-section li, article p, aside p, td, footer p {
-    font-size: 1.2rem;
-    line-height: 2.5rem;
+section li , article p , aside p , td , footer p {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
 }
 
 article {
-    background-color: darkcyan;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 100%;
-    padding: 20px;
+  background-color: darkcyan;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
 }
 
 aside {
-    background-color: darkgreen;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 100%;
-    padding: 20px;
+  background-color: darkgreen;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
 }
 
 #trajetoria {
-    background-color: chartreuse;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 100%;
-    padding: 20px;
+  background-color: chartreuse;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
 }
 
-table, tr, th, td {
-    border: 1px solid black;
+table , tr , th , td {
+  border: 1px solid black;
 }
 
 table {
-    border-collapse: collapse;
-    width: 80%;
-    text-align: center;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
 }
 
 caption {
-    font-size: 1.4rem;
-    margin-bottom: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
 }
 
 thead {
-    background-color: #339e7f;
+  background-color: #339e7f;
 }
 
 th {
-    padding: 20px;
-    font-size: 1.3rem;
+  padding: 20px;
+  font-size: 1.3rem;
 }
 
 #autor {
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 100%;
-    padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
 }
 
 #minha_foto {
-    border-radius: 50%;
-    width: 100px;
+  border-radius: 50%;
+  width: 100px;
 }
 
 footer {
-    background-color: #339e7f;
-    width: 100%;
-    height: 100px;
+  background-color: #339e7f;
+  width: 100%;
+  height: 100px;
 }
