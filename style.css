@@ -35,8 +35,6 @@ nav a {
 }
 
 #licoes {
-  background-color: #65cdb0;
-  border: 1px solid black;
   padding: 20px;
   border-radius: 5px;
 }
@@ -54,7 +52,6 @@ nav a {
   width: 45%;
   display: inline-block;
   height: 50%;
-  border: 1px solid black;
 }
 
 #section_licoes_aprendidas h2 , #section_licoes_a_aprender h2 {
@@ -71,8 +68,6 @@ section li , article p , aside p , footer p {
 }
 
 article {
-  background-color: darkcyan;
-  border: 1px solid black;
   border-radius: 5px;
   padding: 20px;
 }
@@ -83,8 +78,6 @@ article {
 }
 
 aside {
-  background-color: darkgreen;
-  border: 1px solid black;
   border-radius: 5px;
   padding: 20px;
 }
@@ -95,8 +88,6 @@ aside {
 }
 
 #trajetoria {
-  background-color: chartreuse;
-  border: 1px solid black;
   border-radius: 5px;
   padding: 20px;
   clear: both;
@@ -111,6 +102,7 @@ table {
   width: 70%;
   text-align: center;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 caption {
@@ -134,9 +126,9 @@ td {
 
 #autor {
   display: inline-block;
-  border: 1px solid black;
   border-radius: 5px;
   padding: 20px;
+  margin-top: 80px;
 }
 
 #container-foto {
