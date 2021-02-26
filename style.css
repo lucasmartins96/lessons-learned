@@ -6,7 +6,7 @@ body {
   margin-left: 0;
   margin-bottom: 0;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 header {
@@ -37,13 +37,12 @@ nav a {
 #licoes {
   background-color: #65cdb0;
   border: 1px solid black;
-  width: 100%;
   padding: 20px;
   border-radius: 5px;
 }
 
-#licoes h2 {
-  text-align: center;
+#licoes > h2 , #trajetoria h2 {
+  border-bottom: 2px solid rgb(26, 24, 24);
 }
 
 #licoes h2 , article h2 , aside h2 , #trajetoria h2 {
@@ -62,15 +61,11 @@ nav a {
   font-size: 1.5rem;
 }
 
-#section_licoes_aprendidas {
-  margin-left: 8px;
-}
-
 #section_licoes_a_aprender {
   vertical-align: top;
 }
 
-section li , article p , aside p , td , footer p {
+section li , article p , aside p , footer p {
   font-size: 1.2rem;
   line-height: 2.5rem;
 }
@@ -79,24 +74,32 @@ article {
   background-color: darkcyan;
   border: 1px solid black;
   border-radius: 5px;
-  width: 100%;
   padding: 20px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
 }
 
 aside {
   background-color: darkgreen;
   border: 1px solid black;
   border-radius: 5px;
-  width: 100%;
   padding: 20px;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
 }
 
 #trajetoria {
   background-color: chartreuse;
   border: 1px solid black;
   border-radius: 5px;
-  width: 100%;
   padding: 20px;
+  clear: both;
 }
 
 table , tr , th , td {
@@ -105,8 +108,9 @@ table , tr , th , td {
 
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 70%;
   text-align: center;
+  margin: 0 auto;
 }
 
 caption {
@@ -123,20 +127,37 @@ th {
   font-size: 1.3rem;
 }
 
+td {
+  font-size: 1.1rem;
+  padding: 15px 0;
+}
+
 #autor {
+  display: inline-block;
   border: 1px solid black;
   border-radius: 5px;
-  width: 100%;
   padding: 20px;
+}
+
+#container-foto {
+  display: inline-block;
+  width: 150px;
 }
 
 #minha_foto {
   border-radius: 50%;
-  width: 100px;
+  width: 100%;
+}
+
+#inf-autor {
+  float: right;
+  margin-left: 50px;
+  vertical-align: top;
 }
 
 footer {
   background-color: #339e7f;
   width: 100%;
   height: 100px;
+  text-align: center;
 }
