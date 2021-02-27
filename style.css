@@ -12,8 +12,7 @@ body {
 header {
   top: 0;
   position: fixed;
-  background-color: rgb(51, 158, 127)
-  ;
+  background-color: rgb(51, 158, 127);
   width: 100%;
   height: 170px;
   text-align: center;
@@ -50,12 +49,12 @@ nav a:hover {
   border-radius: 5px;
 }
 
-#licoes > h2 , #trajetoria h2 {
-  border-bottom: 2px solid rgb(26, 24, 24);
+article h2 , aside h2 , #licoes h2 , #trajetoria h2 {
+  font-size: 2rem;
 }
 
-#licoes h2 , article h2 , aside h2 , #trajetoria h2 {
-  font-size: 2rem;
+#licoes > h2 , #trajetoria h2 {
+  border-bottom: 2px solid rgb(26, 24, 24);
 }
 
 #section_licoes_aprendidas , #section_licoes_a_aprender {
