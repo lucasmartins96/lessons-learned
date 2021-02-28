@@ -2,7 +2,6 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  margin-top: 180px;
   margin-left: 0;
   margin-bottom: 0;
   font-size: 16px;
@@ -37,7 +36,7 @@ nav a:hover {
   border-radius: 5px;
 }
 
-#container {
+main {
   width: 75%;
   margin: 0 auto;
   background-color: rgb(236, 249, 245);
@@ -49,11 +48,15 @@ nav a:hover {
   border-radius: 5px;
 }
 
-article h2 , aside h2 , #licoes h2 , #trajetoria h2 {
+#link_licoes {
+  padding-top: 200px;
+}
+
+#link_licoes , #link_aprendizados , .lado-direito h2 , #link_trajetoria {
   font-size: 2rem;
 }
 
-#licoes > h2 , #trajetoria h2 {
+#link_licoes , #link_trajetoria {
   border-bottom: 2px solid rgb(26, 24, 24);
 }
 
@@ -61,15 +64,10 @@ article h2 , aside h2 , #licoes h2 , #trajetoria h2 {
   padding: 20px;
   width: 45%;
   display: inline-block;
-  height: 50%;
 }
 
 #section_licoes_aprendidas h2 , #section_licoes_a_aprender h2 {
   font-size: 1.5rem;
-}
-
-#section_licoes_a_aprender {
-  vertical-align: top;
 }
 
 section li , article p , aside p , footer p {
@@ -87,6 +85,10 @@ article {
   width: 45%;
 }
 
+#link_aprendizados , .lado-direito h2 {
+  padding-top: 200px;
+}
+
 aside {
   border-radius: 5px;
   padding: 20px;
@@ -101,6 +103,10 @@ aside {
   border-radius: 5px;
   padding: 20px;
   clear: both;
+}
+
+#link_trajetoria {
+  padding-top: 200px;
 }
 
 table , tr , th , td {
