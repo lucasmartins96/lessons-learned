@@ -64,6 +64,7 @@ main {
   padding: 20px;
   width: 45%;
   display: inline-block;
+  vertical-align: top;
 }
 
 #section_licoes_aprendidas h2 , #section_licoes_a_aprender h2 {
